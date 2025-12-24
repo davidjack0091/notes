@@ -6,8 +6,11 @@
 **void element** - element without content and closing tag.  
 **attribute** - additional information about element.
 
-**semantic element** - provide information about their content. `<header>` `<article>` `<nav>` etc.  
-**non semantic element** - provide no information about their content. for styling and layout. `<div>` `<span>` etc.
+**semantic element** - provide information about their content.  
+`<header>` `<article>` `<nav>` etc.  
+**non semantic element** - provide no information about their content.  
+for styling and layout.  
+`<div>` `<span>` etc.
 
 ### vs code - (! + enter)
 
