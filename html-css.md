@@ -11,9 +11,9 @@ html reference
 **attribute** - additional information about element.
 
 **semantic element** - provide information about their content.
-<header>, <article>, <nav>, etc.
+`<header>`, `<article>`, `<nav>`, etc.
 **non semantic element** - provide no information about their content. for styling and layout.
-<div>, <span>, etc.
+`<div>`, `<span>`, etc.
 
 ### vs code - (! + enter)
 ```html
@@ -33,7 +33,7 @@ html reference
 ### document metadata
 `<head>`
 => `<meta />` -> `charset="UTF-8"`
-              -> `name="viewport"`, `content="width=device-width`, `initial-scale=1.0"` (responsive)
+=> `<meta />` -> `name="viewport"`, `content="width=device-width`, `initial-scale=1.0"` (responsive)
 => `<title>`
 => `<style>` (internal css)
 => `<script>` (internal javascript)
@@ -45,17 +45,20 @@ html reference
 
 ### content sectioning
 `<address>`, `<article>`, `<aside>`, `<main>`, `<nav>`, `<section>`, `<header>`, `<footer>`
-<h1>, <h2>, <h3>, <h4>, <h5>, <h6>
+`<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`
 
-text content
-<p>, <blockquote>, <pre>, <hr />
-<dl> => <dt>
-     => <dd>
-<ol> => <li>
-     => <ul>
-<figure> => <img />
-         => <figcaption>
-<div> (block container)
+### text content
+`<p>`, `<blockquote>`, `<pre>`, `<hr />`
+`<dl>`
+=> `<dt>`
+=> `<dd>`
+`<ol>`
+=> `<li>`
+=> `<ul>`
+`<figure>`
+=> `<img />`
+=> `<figcaption>`
+`<div>` (block container)
 
 inline text semantics
 <a> -> href="https://example.com", target="_self(dafault)/_blank/_parent/_top"
