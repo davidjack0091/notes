@@ -4,6 +4,8 @@
 
 linux commands
 
+`this is` 
+
 **git** - version control system. track changes in code.
 **git bash** - cli for windows that provides a unix like environment to use git and run linux commands.
 **commit** - saved change with a message.
