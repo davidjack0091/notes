@@ -134,14 +134,14 @@ for styling and layout.
 - `action`
 - `method` (get/post)
 - `target="_self`(dafault)`/_blank/_parent/_top"`  
-don't use action, method, target - if handling form submission using javascript
+don't use `action`, `method`, `target` - if handling form submission using javascript
 - `enctype="application/x-www-form-urlencoded"` (default)
-          `"multipart/form-data"` (if <input type="file">)
+          `"multipart/form-data"` (if `<input type="file">`)
           `"text/plain"`
 - `novalidate` (form validation)
 
 `<label>`  
-- `for` (id of <input>)
+- `for` (id of `<input>`)
 
 `<input />`  
 - `type="checkbox/date/email/file/hidden/image/month/number/password/radio/search/tel/text/time/url/week"`
