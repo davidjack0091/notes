@@ -152,14 +152,13 @@ don't use action, method, target - if handling form submission using javascript
 - `disabled` 
 - `readonly` 
 - `multiple`
-(form validation)
-- `required`
-- `min`
-- `max`
-- `minlength`
-- `maxlength`
-- `size`
-- `pattern` 
+- `required` (form validation)
+- `min` (form validation)
+- `max` (form validation)
+- `minlength` (form validation)
+- `maxlength` (form validation)
+- `size` (form validation)
+- `pattern` (form validation)
 
 `<fieldset>`
 - `<legend>`
