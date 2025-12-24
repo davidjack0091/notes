@@ -120,7 +120,8 @@
 - `<thead>` `<tbody>` `<tfoot>`
     -  `<tr>`
     -  `<th>`
-        -  `scope="col/row"` `colspan/rowspan`
+        -  `scope="col/row"`
+        -  `colspan/rowspan`
     -  `<td>`
         -  `colspan/rowspan`
 
