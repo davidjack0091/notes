@@ -6,8 +6,8 @@
 **void element** - element without content and closing tag.  
 **attribute** - additional information about element.
 
-**semantic element** - provide information about their content. `<header>`, `<article>`, `<nav>`, etc.  
-**non semantic element** - provide no information about their content. for styling and layout. `<div>`, `<span>`, etc.
+**semantic element** - provide information about their content. `<header>` `<article>` `<nav>` etc.  
+**non semantic element** - provide no information about their content. for styling and layout. `<div>` `<span>` etc.
 
 ### vs code - (! + enter)
 
@@ -33,7 +33,7 @@
 `<head>`    
 - `<meta />`
      - `charset="UTF-8"`
-    - `name="viewport", content="width=device-width, initial-scale=1.0"` (responsive)  
+    - `name="viewport"` `content="width=device-width, initial-scale=1.0"` (responsive)  
 - `<title>`  
 - `<style>` (internal css)
 - `<script>` (internal javascript)  
@@ -57,7 +57,7 @@
 `<nav>`  
 `<section>`  
 `<header>`  
-`<footer>`
+`<footer>`  
 `<h1>` `<h2>` `<h3>` `<h4>` `<h5>` `<h6>`
 
 ### text content
@@ -115,15 +115,15 @@
 `<table>`
 - `<caption>`
 - `<colgroup>`
-- `<col>`
-    - `span`
+    - `<col>`
+        - `span`
 - `<thead>` `<tbody>` `<tfoot>`
     -  `<tr>`
-    -  `<th>`
-        -  `scope="col/row"`
-        -  `colspan/rowspan`
-    -  `<td>`
-        -  `colspan/rowspan`
+        -  `<th>`
+            -  `scope="col/row"`
+            -  `colspan/rowspan`
+        -  `<td>`
+            -  `colspan/rowspan`
 
 ### forms
 
@@ -133,8 +133,8 @@
 - `target="_self`(dafault)`/_blank/_parent/_top"`  
 don't use action, method, target - if handling form submission using javascript
 - `enctype="application/x-www-form-urlencoded"` (default)
-            `"multipart/form-data"` (if <input type="file">)
-            `"text/plain"`
+          `"multipart/form-data"` (if <input type="file">)
+          `"text/plain"`
 - `novalidate` (form validation)
 
 `<label>`
@@ -183,13 +183,12 @@ don't use action, method, target - if handling form submission using javascript
 
 ### global attribute
 
-`id` 
-`class` 
-`hidden`
-`title`
+`id`  
+`class`   
+`hidden`  
+`title`  
 `tabindex`  
-`data-*` (to store your own custom data on elements and read it later in javascript using dataset property)
-
+`data-*` (to store your own custom data on elements and read it later in javascript using dataset property)  
 `style` (inline css)  
 
 ### svg
