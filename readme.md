@@ -12,7 +12,7 @@
 for styling and layout.  
 `<div>` `<span>` etc.
 
-### vs code - (! + enter)
+### vs code html boilerplate (! + enter)
 
 ```html
 <!DOCTYPE html>
