@@ -197,11 +197,12 @@ don't use action, method, target - if handling form submission using javascript
 `<svg>`
 
 ### icons
+
 - icons in html
     - copy emoji/icons and paste
-    - svg file in <img>
+    - svg file in `<img>`
     - icon fonts (font awesome, material icons, etc)
-    - inline <svg>
+    - inline `<svg>`
 - icons in css
-    - background-image property
-    - ::before/::after pseudo element
+    - `background-image`
+    - `::before/::after`
