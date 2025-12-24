@@ -138,6 +138,7 @@ don't use `action`, `method`, `target` - if handling form submission using javas
 - `enctype="application/x-www-form-urlencoded"` (default)
 
   `"multipart/form-data"` (if `<input type="file">`)
+
   `"text/plain"`
 - `novalidate` (form validation)
 
