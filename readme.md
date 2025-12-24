@@ -137,7 +137,7 @@ don't use action, method, target - if handling form submission using javascript
           `"text/plain"`
 - `novalidate` (form validation)
 
-`<label>`
+`<label>`  
 - for (id of <input>)
 
 `<input />`
