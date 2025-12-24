@@ -139,6 +139,7 @@ don't use action, method, target - if handling form submission using javascript
 
 `<label>`
 - for (id of <input>)
+
 `<input />`
 - `type="checkbox/date/email/file/hidden/image/month/number/password/radio/search/tel/text/time/url/week"`
 - `value` (for checkbox, radio, hidden)
