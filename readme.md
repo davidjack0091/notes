@@ -170,9 +170,9 @@ don't use `action`, `method`, `target` - if handling form submission using javas
 `<select>`
 - `<optgroup>`
     - `label`
-        - `<option>`
-            - `label` 
-            - `selected`
+    - `<option>`
+        - `label`
+        - `selected`
 
 `<textarea>`
 - `rows`
