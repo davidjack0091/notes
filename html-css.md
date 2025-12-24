@@ -31,13 +31,14 @@ html reference
 `<html>` -> `lang`
 
 ### document metadata
-`<head>` => `<meta />` -> `charset="UTF-8"`
-                -> `name="viewport"`, `content="width=device-width`, `initial-scale=1.0"` (responsive)
-       => `<title>`
-       => `<style>` (internal css)
-       => `<script>` (internal javascript)
-       => `<link />` -> `href="style.css"`, `rel="stylesheet"` (external css)
-       => `<script>` -> `src="script.js"`, `defer` (external javascript)
+`<head>`
+=> `<meta />` -> `charset="UTF-8"`
+              -> `name="viewport"`, `content="width=device-width`, `initial-scale=1.0"` (responsive)
+=> `<title>`
+=> `<style>` (internal css)
+=> `<script>` (internal javascript)
+=> `<link />` -> `href="style.css"`, `rel="stylesheet"` (external css)
+=> `<script>` -> `src="script.js"`, `defer` (external javascript)
 
 ### sectioning root
 `<body>`
