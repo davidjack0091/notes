@@ -136,8 +136,8 @@ for styling and layout.
 - `target="_self`(dafault)`/_blank/_parent/_top"`  
 don't use `action`, `method`, `target` - if handling form submission using javascript
 - `enctype="application/x-www-form-urlencoded"` (default)
-`"multipart/form-data"` (if `<input type="file">`)
-`"text/plain"`
+  `"multipart/form-data"` (if `<input type="file">`)
+  `"text/plain"`
 - `novalidate` (form validation)
 
 `<label>`  
