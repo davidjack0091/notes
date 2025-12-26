@@ -7,7 +7,10 @@
 **attribute** - additional information about element.
 
 **semantic element** - provide information about their content.  
-`<header>` `<article>` `<nav>` etc.  
+```html
+<header>
+<article>
+<nav>```
 **non semantic element** - provide no information about their content.  
 for styling and layout.  
 `<div>` `<span>` etc.
